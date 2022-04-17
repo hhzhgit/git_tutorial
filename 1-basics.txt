@@ -51,3 +51,10 @@ git config --global user.email 666333hhh@gmail.com
 ==================================
 با استفاده از گیت ایگنور میتوان کاری کرد که بعضی از فایل ها توسط 
 گیت رهگیری نشوند برای این منظور یک فایل با نام گیت ایگنور ایجاد میکنیم
+فرستادن فایل ها بر روی گیت ها را اصطلاحا پوش میگوییم و از کدی مثل زیر
+استفاده میکنیم
+git push https://github.com/hhzhgit/git_tutorial.git
+فرستادن فایل ها از روی گیت هاب درون سیستم را پول میگوند
+ایجاد ریموت
+git remote rm origin
+git remote add origin  https://github.com/hhzhgit/git_tutorial.git
